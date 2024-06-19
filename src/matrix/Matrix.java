@@ -40,7 +40,7 @@ public interface Matrix {
   boolean isSame(Matrix other);
 
   /**
-   * Get the element at the specified row and column.
+   * Get the element at the specified row and column values.
    *
    * @param row the row of the element
    * @param col the column of the element
