@@ -11,7 +11,7 @@ public interface Matrix {
    *
    * @param other the other matrix to be added
    * @return the resulting matrix
-   * @throws IllegalArgumentException if parameter is not the same size as the current matrix.
+   * @throws IllegalArgumentException if parameter is not the same size as the current matrix
    */
   Matrix add(Matrix other) throws IllegalArgumentException;
 
@@ -20,7 +20,7 @@ public interface Matrix {
    *
    * @param other the other matrix to be multiplied
    * @return the resulting matrix
-   * @throws IllegalArgumentException if parameter is not the same size as the current matrix
+   * @throws IllegalArgumentException if parameter is not the right size for matrix multiplication
    */
   Matrix multiply(Matrix other) throws IllegalArgumentException;
 
